@@ -15,6 +15,7 @@
     <org.apache.logging.log4j.version>2.17.2</org.apache.logging.log4j.version>
     <assertj.version>3.23.1</assertj.version>
     <junit-jupiter.version>5.8.2</junit-jupiter.version>
+    <commons-lang3.version>3.12.0</commons-lang3.version>
   </properties>
 
   <dependencies>
@@ -64,6 +65,11 @@
       <artifactId>junit-jupiter-params</artifactId>
       <version>${junit-jupiter.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons-lang3.version}</version>
     </dependency>
     <dependency>
       <groupId>org.jacoco</groupId>
