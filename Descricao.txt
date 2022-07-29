@@ -1,0 +1,53 @@
+O software deve representar uma loja de lembrancinhas que tenha items disponíveis para venda. Exemplo:
+
+Chaveiro de Time - 1.99
+Chiclete Trident - 2.99
+Bala de café - 0.30
+Luva de Frio - 5.99
+Óculos de sol - 19.99
+Bola de couro - 17.30
+Boné - 59.25
+Mouse - 15.00
+Teclado - 22.50
+
+Além disso, o software deve disponibilizar um menu que contenha as seguintes opções: 
+
+--------------------------------------------------------
+
+OPÇÕES DO MENU
+
+0 - Criar item
+1 - Iniciar compra
+Ao selecionar esta opção, o software deve disponibilizar um menu que aparece novamente após executar uma das tres primeiras operações:
+1 - Listar items da loja
+2 - Adicionar item -> deve exibir uma mensagem do item adicionado e disponibilizar o menu novamente
+3 - Remover item -> deve exibir uma mensagem do item removido e disponibilizar o menu novamente
+4 - Mostrar items no carrinho -> deve exibir o nome e o valor dos items no carrinho.
+4 - Finalizar compra -> Executa a regra 2.
+5 - Cancelar compra -> O usuário deve retornar para o primeiro menu.
+ 
+2 - Sair
+Ao selecionar esta opção, o software deve ser encerrado.
+
+--------------------------------------------------------
+
+REGRAS
+
+Caixa
+1 - OSD permitir que o cliente possa iniciar uma compra;
+2 - OSD permitir que o cliente possa finalizar a compra;
+Ao escolher finalizar a compra, o sistema deve calcular o valor total, calcular o valor recebido do cliente e calcular se há troco, se houver troco, exiba o valor.
+3 - OSD permitir que o cliente possa cancelar a compra;
+
+Carrinho
+
+4 - OSD permitir que o cliente possa adicionar os itens em um carrinho;
+5 - OSD permitir que o cliente possa remover os itens em um carrinho;
+6 - OSD permitir que o cliente possa cancelar a compra;
+7 - O carrinho só pode conter 3 itens.
+
+Item
+8 - Um cliente não pode comprar mais de uma unidade do mesmo item;
+9 - O nome de um item não pode conter mais de 50 caracteres.
+10 - O valor máximo de um item deve ser de 100 reais. 
+
