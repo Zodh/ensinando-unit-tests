@@ -38,4 +38,9 @@ public class Item {
     }
     this.name = name;
   }
+
+  @Override
+  public String toString() {
+    return String.format("Item: %s | Valor: %s", name, value.toString());
+  }
 }
