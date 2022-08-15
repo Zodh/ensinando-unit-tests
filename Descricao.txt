@@ -43,11 +43,11 @@ Carrinho
 
 4 - OSD permitir que o cliente possa adicionar os itens em um carrinho;
 5 - OSD permitir que o cliente possa remover os itens em um carrinho;
-6 - OSD permitir que o cliente possa cancelar a compra;
 7 - O carrinho só pode conter 3 itens.
+8 - Um cliente não pode comprar mais de uma unidade do mesmo item;
 
 Item
-8 - Um cliente não pode comprar mais de uma unidade do mesmo item;
+
 9 - O nome de um item não pode conter mais de 50 caracteres.
-10 - O valor máximo de um item deve ser de 100 reais. 
+10 - O valor máximo de um item deve ser de 350 reais. 
 
